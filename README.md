@@ -7,7 +7,7 @@
 
 A premium, full-stack URL shortener application built with modern web technologies. Features a glassmorphism UI, real-time analytics, and robust security measures.
 
-🔗 **Live Demo:** [https://url-shortener-frontend.vercel.app](https://url-shortener-frontend.vercel.app) *(Replace with your Vercel URL)*
+🔗 **Live Demo:** [https://url-shortener-km4iiawv7-erdemabacis-projects.vercel.app/]
 
 ## ✨ Features
 
