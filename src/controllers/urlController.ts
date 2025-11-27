@@ -17,7 +17,8 @@ export const shortenUrl = async (req: Request, res: Response, next: NextFunction
     const newUrl: IUrl = new Url({ longUrl, shortCode });
     await newUrl.save();
 
-    res.json({ longUrl, shortUrl: `http://localhost:5000/api/${shortCode}` });
+    const baseUrl = process.env.BASE_URL || 'http://localhost:5000';
+    res.json({ longUrl, shortUrl: `${baseUrl}/api/${shortCode}` });
   } catch (error) {
     next(error);
   }
