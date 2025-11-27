@@ -26,6 +26,11 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 
+// Test route
+app.get("/", (req, res) => {
+  res.send("URL Shortener API is running!");
+});
+
 // Routes
 app.use('/api', urlRoutes);
 
