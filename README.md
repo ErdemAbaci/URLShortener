@@ -88,10 +88,6 @@ A premium, full-stack URL shortener application built with modern web technologi
 docker-compose up --build
 ```
 
-## 📸 Screenshots
-
-*(Add screenshots of your beautiful UI here)*
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
